@@ -1,3 +1,13 @@
 name = "cloudflare-sample"
 main = "src/index.ts"
-compatibility_date = "2023-05-06"
+compatibility_date = "2023-04-19"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "my-d1-sample"
+database_id = "021b5af7-4fb6-4745-ae56-3624960a2f6a"
+
+[[r2_buckets]]
+binding = 'R2'
+bucket_name = 'my-r2-sample'
+preview_bucket_name = 'my-r2-sample-development'
